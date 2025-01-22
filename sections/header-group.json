@@ -38,6 +38,11 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".list-menu--inline li:last-child {margin-left: auto;}",
+        ".list-menu--inline li:last-child a {border: 1px solid currentColor; padding: 1rem 1rem; border-radius: 0.5rem;}",
+        ".list-menu--inline li:last-child a:hover {background-color: #b2292e; transition: background-color 0.2s ease;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
