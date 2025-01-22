@@ -3596,11 +3596,3 @@ details-disclosure > details {
   }
 }
 
-header.header.header--middle-left.header--mobile-center.page-width.header--has-menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-}
-nav.header__inline-menu {
-    justify-self: end;
-}
